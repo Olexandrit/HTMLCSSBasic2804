@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Знакомстов с HTML</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="../globalfile/style/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logotype"><a href="#"></a></div>
+        <ul style="margin: 0;
+        font-size: 1.2em;">
+            <li> <a href="#block1">Тема урока</a></li>
+            <li> <a href="#block3">Презентация</a></li>
+            <li> <a href="#block5">Домашняя работа</a></li>
+            <li> <a href="#block6">материалы</a></li>
+            
+        </ul>
+    </header>
+    <main>
+        <section id="block1" class="blocks-standart">
+            <div class="curse">HTML 5 & CSS 3</div>
+            <div class="name-lesson">Знакомство с HTML</div>
+        </section>
+        <section id="block2" class="blocks-standart">
+            <article>Сегодня на уроке</article>
+            <ol>
+                <li>Что такое HTML</li>
+                <li>Браузеры</li>
+                <li>Структура любой страницы</li>
+                <li>Теги и Атрибуты</li>
+                <li>Ссылки</li>
+            </ol>
+        </section>
+
+     <section id="autor" itemscope itemtype="http://schema.org/Person">
+         <div><img itemprop="image" src="./image/fil.jpg" alt="philip7e"> </div>
+         <div>
+             <div itemprop="name" class="autor-name">Севене Филипп</div>
+             <div class="position">Frontend developer</div>
+             <div><a class="link-autor" itemprop="url" href="https://www.linkedin.com/in/philip-sevene/">Linkedin: Philip Sevene</a></div>
+         </div>
+     </section>
+
+
+        <section id="block3" class="blocks-standart">
+
+            <div class="presentation-block">
+                <header>Что такое этот HTML?</header>
+                <article>
+                    <div>
+                        <div>
+                            <img style="width: 200px;"
+                                src="https://icon-library.net/images/html5-icon/html5-icon-13.jpg" alt="html">
+                        </div>
+                        HTML – это язык разметки документов. Он применяется во всем мире. Браузер интерпретирует код
+                        HTML для отображения его на компьютере, планшете или телефоне. Язык HTML был разработан
+                        британцем Тимом Бернерсом-Ли, в ЦЕРНе. В первую очередь язык HTML предназначался для обмена
+                        научными документами. Верстка документов происходит при помощи специальных дескрипторов (но чаще
+                        всего их называют тегами) <br><br>
+                        Было множество версий HTML
+                        <ul>
+                            <li>RFC 1866 — HTML 2.0, одобренный как официальный стандарт 22 сентября 1995 года;</li>
+                            <li> HTML 3 (март 1996) - не нашла поддержки у разработчиков</li>
+                            <li>HTML 3.2 — 14 января 1997 года;</li>
+                            <li>HTML 4.0 — 18 декабря 1997 года (многие унаследованные элементы были отмечены как
+                                устаревшие и нерекомендованные к использованию (англ. deprecated).);</li>
+                            <li>HTML 4.01 — 24 декабря 1999 года (версия включала малозаметные, но существенные
+                                изменения по сравнению с предыдущей);</li>
+                            <li>ISO/IEC 15445:2000 (ISO HTML, основан на HTML 4.01 Strict) — 15 мая 2000 года.</li>
+                            <li> HTML 5 — с 2004 года в разработке (W3C совместно с сообществом WHATWG)
+                            </li>
+                        </ul>
+                        На данный момент самая последняя версия – HTML5. Первая бета версия HTML5 появилась осенью 2007
+                        года. Для упрощения и удобства было введено понятие «гипертекст». Гиперссылка (или просто
+                        ссылка), является частью гипертекста, и она ссылается на другой HTML документ.
+
+                        HTML был построен так, что страницы отображались на всех устройствах одинаково. Позже добавили
+                        графическое оформление (CSS).
+
+                    </div>
+
+                </article>
+                <header>Структура HTML документа</header>
+                <article>
+                    <div>Язык HTML Как говорилось выше – этот язык полностью состоит из дескрипторов (тегов). У любой
+                        веб страницы есть начало и конец, они обозначаются парным тегом &lt;html&gt;
+                        <div>
+                            <img src="./image/HTML1.png" alt="">
+                            <br>
+                            <img src="./image/HTML2.png" alt=""></div>
+                    </div>
+                </article>
+
+            </div>
+            <div class="presentation-block">
+                <header>Браузер</header>
+                <article>
+                    <div>
+                        <div><img style="width: 350px;" src="./image/browser.jpg" alt="browser"></div>
+                        Первое слово, которые слышит любой новичок при входе в интернет — это браузер. Что же такое
+                        браузер? Какие они бывают, как выбрать лучший? Вопросов появляется очень много, а вот ответов на
+                        них зачастую в сети нет или их приходится собирать по частям. <br><br>
+                        <span class="bold">Браузер, Веб-обозреватель, Web browser</span> - специальная программа,
+                        предназначенная для просмотра веб-сайтов. Происходит это с помощью http запросов к серверу и
+                        получения от него данных, которые обрабатываются по специальным утвержденным стандартам и таким
+                        образом формируется веб-страница.
+                    </div>
+                </article>
+
+            </div>
+            <div class="presentation-block">
+                <header>Правила</header>
+                <article>
+                  <div>
+                          <iframe src="https://netology-university.bitbucket.io/codestyle/html/" frameborder="0" style="width: 80%; height: 650px; border: 1px solid red;"></iframe>
+                      </div>
+                    </div>
+                </article>
+
+            </div>
+            <div class="presentation-block">
+                <header>Понятие тега и арибута</header>
+                <article>
+                    <div>
+                        <div><img src="./image/CHto-takoe-HTML-tegi-i-atributyi-W3C-validator.png" alt="">
+                        </div>
+                        <span class="bold">HTML-тег</span>  — в переводе с английского tag — помечать - символы, заключенные в угловые скобки и являющиеся элементами языка гипертекстовой разметки (HTML). Символы могут быть толокo на английском языке (т.к весь интернет на нем построен). Тег имеет вид &lt;tagname&gt;
+                      
+                        <div>
+                            <img src="https://puzzleweb.ru/images/teacher/html_elements.png" alt="">
+                        </div>
+                       <span class="bold">Атрибут</span> — используется для определения характеристик html-элемента и помещается внутри открытого тега элемента. Все атрибуты состоят из двух частей — это имя и значение:
+                       <br><br>
+                       Имя — это свойство, которое Вы хотите установить. Например, элемент абзаца <p>, в примере ниже, содержит атрибут align, который Вы можете использовать для указания выравнивания абзаца на странице.
+                       <br><br>
+                       Значение — это значение, которое Вы хотите установить для свойства. Значение атрибута всегда помещается в кавычки. В приведенном ниже примере показаны три возможных значения атрибута align: left, center и right.
+                        <div>
+                            <img src="https://alpha-byte.ru/wp-content/uploads/2018/07/parnyj-teg.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                </article>
+
+            </div>
+            <div class="presentation-block">
+                <header>Блочные теги</header>
+                <article>
+                    <div>
+                            Выделяют две основные категории HTML-элементов, которые соответствуют типам их содержимого и поведению в структуре веб-страницы — блочные и строчные элементы. С помощью блочных элементов можно создавать структуру веб-страницы, строчные элементы используются для форматирования текстовых фрагментов. <br>
+                            Блочные элементы — элементы высшего уровня, которые форматируются визуально как блоки, располагаясь на странице в окне браузера вертикально. Блочные элементы генерируют основной блок, который содержит только блок элемента.
+                      <div><img src="./image/blocks.png" alt=""></div>
+                      Встроенные (строчные) элементы генерируют внутристрочные контейнеры. Они не формируют новые блоки контента.
+                      Строчные элементы могут содержать только данные и другие строчные элементы. Исключение составляет элемент <a>, который согласно спецификации HTML5 может оборачивать целые абзацы, списки, таблицы, заголовки и целые разделы при условии, что они не содержат другие интерактивные элементы — другие ссылки и кнопки.
+                          <div><img src="./image/строки.png" alt=""></div>
+                    </div>
+                </article>
+
+            </div>
+            <div class="presentation-block">
+                <header>Установка текстового редактора</header>
+                <article>
+                    <div>
+                       <a href="https://code.visualstudio.com/">Скачть можно здесть</a> 
+                    </div>
+                </article>
+
+            </div>
+         
+        </section>
+        <section id="block4" style="display: none;" class="blocks-standart">
+            <header>Классная работа</header>
+            <article>
+                <ol>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </article>
+        </section>
+        <section id="block5" class="blocks-standart">
+            <header>Домашнее задание</header>
+            <article>
+                <ol>
+                    <li>Повторить темы рассмотренные на уроке</li>
+                    <li>Сверстайте страничку как в PDF файле в папке Homework к уроку</li>
+                    <li>Создайте 2 страницы с произвольным контентом и сделайте чтобы они ссылались друг на друга</li>
+                </ol>
+            </article>
+        </section>
+        <section id="block6" class="blocks-standart">
+            <header>Дополнитнльные материалы</header>
+            <article>
+                <div class="link">
+                    <a href="https://codebra.ru/ru/lessons-html/dating/1/1
+                    " target="_blank">Что такое HTML</a>
+                </div>
+                <div class="link">
+                    <a href="https://myblaze.ru/chto-takoe-brauzer-kakie-est-brauzeryi-i-kak-ego-vyibrat/" target="_blank">О браузерах</a>
+                </div>
+                <div class="link">
+                    <a target="_blank" href="http://monetavinternete.ru/sozdaem-sajt-s-nulya/osnovy-html/chto-takoe-html-tegi-i-atributy-validator-validator-w3c-struktura-i-pravila-napisaniya-tegov/">Понятие тега и атрибута</a>
+                </div>
+                <div class="link">
+                        <a href="https://html5book.ru/block-inline-elements/
+                        " target="_blank">Блочные и строчные теги</a>
+                    </div>
+                    
+               
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+
+            Что делать елси я не знаю с чего мне начать или у меня есть дополнительные вопросы?
+            <ol>
+                <li>Открой браузер перейди <a href="https://google.com" target="_blank" class="red">по ссыке</a>,
+                    попробуй найти ответ здесь на свои вопросы</li>
+                <li>Если не нашел, то пиши в общий чат, здесь ты можешь задать любые вопросы:) <a href="#"
+                        target="_blank" class="red">ссылка</a> </li>
+                <li style="display: none;">Если все еще твой вопрос не решен пиши мне в телеграмм "@Philip7e"</li>
+            </ol>
+        </div>
+    </footer>
+    <script src="../../globalfile/code/index.js"></script>
+</body>
+
+</html>
